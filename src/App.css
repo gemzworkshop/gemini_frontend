@@ -1,0 +1,102 @@
+.app{
+  display: flex;
+  height:100vh;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 0.8;
+}
+
+/* sidebar */
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 0.2;
+  background: #e9ebea;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  /* background: #cfd2d1; */
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* chat area */
+.chat-area{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.ch-message{
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 10px;
+}
+
+.ch-textinput{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 10px;
+  /* border-radius: 20px; */
+}
+
+.user-img{
+  width: 30px;
+  height: 40px;
+}
+.user-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.ch-ques, .ch-ans{
+  width: 60%;
+  display: flex;
+  padding: 20px;
+  text-align: left;
+  gap: 20px;
+}
+
+.ch-ques{
+  background: #eceeee;
+}
+
+.user-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
